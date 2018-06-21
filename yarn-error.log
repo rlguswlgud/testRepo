@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rlgus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\MongoDB\bin;C:\Users\rlgus\AppData\Local\Microsoft\WindowsApps;C:\Users\rlgus\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.4.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:50:26)
+
+npm manifest: 
+  {
+    "name": "heroku-git-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
